@@ -1,5 +1,5 @@
-FROM php:8.2-fpm
-LABEL Name=versionone Version=0.0.1
+FROM php:8.1-fpm
+LABEL Name=versiontwo Version=0.0.1
 # Arguments defined in docker-compose.yml
 ARG user
 ARG uid
